@@ -19,7 +19,7 @@ Please note that our point cloud data is obtained based on **[Deep Fashion3D V2]
 
 ## 📌 Training
 Train the Point Cloud Diffusion and then the Joint Diffusion.
-Thanks to the code repository from **[https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D](https://github.com/luost26/diffusion-point-cloud)**.
+Thanks to the code repository from **[https://github.com/luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud)**.
 You can set dataset using `--categories` and `--split`.
 
 ### Latent Encoder
