@@ -13,7 +13,7 @@
 ## 📌 Data Preparation
 Please download paired human-garment point cloud dataset in the following link and place four training dataset files `Hoodie\human-garment\2048\*-2048` in human-garment.zip in our `./data` folder. 
 Google Drive: **[[Google Drive]](https://drive.google.com/file/d/1P3ni1v6QvcIc2JZ1Kl8FANnfI9o0lP5X/view?usp=drive_link)**  
-Baiduyun Drive: **[[Baidu Drive]](https://pan.baidu.com/s/1xPfo2tYLyfHkdVo8_ffSUw)**, Password: g7e1. 
+Baiduyun Drive: **[[Baidu Drive]](https://pan.baidu.com/s/1y8jo0XDzSWMYXoF6fb47qA)**, Password: fx2n. 
 
 Please note that our point cloud data is obtained based on **[Deep Fashion3D V2](https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D)**.
 
