@@ -2,9 +2,9 @@
   Hoodie: Hierarchical Point Cloud and Latent Code Diffusion for Dressed Avatar Generation
 </h1>
 
-## 📌 Paper Infromation
+## 📌 Paper
 
-This paper has been accepted by the journal Neurocomputing. You can get this paper from **[Hoodie](https://www.sciencedirect.com/science/article/pii/S0925231225028048)**.
+🎉 This paper has been accepted by the journal Neurocomputing. You can get this paper from **[Hoodie](https://www.sciencedirect.com/science/article/pii/S0925231225028048)**.
 
 ## 📌 Environment 
 
