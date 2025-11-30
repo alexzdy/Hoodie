@@ -6,7 +6,7 @@
 
 🎉 This paper has been accepted by the journal **Neurocomputing**. You can get this paper from **[Hoodie](https://www.sciencedirect.com/science/article/pii/S0925231225028048)**.
 
-## 📌 Environment 
+## 💡 Environment 
 
     conda create -n hoodie python=3.8
     conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
@@ -14,7 +14,7 @@
     conda install h5py
     pip3 install open3d
 
-## 🚀 Data Preparation
+## 📌 Data Preparation
 
 Please download paired human-garment point cloud dataset in the following link and place four training dataset files `Hoodie\human-garment\2048\*-2048` in human-garment.zip in our `./data` folder. 
 
@@ -24,7 +24,7 @@ Baiduyun Drive: **[[Baidu Drive]](https://pan.baidu.com/s/1y8jo0XDzSWMYXoF6fb47q
 
 Please note that our point cloud data is obtained based on **[Deep Fashion3D V2](https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D)**.
 
-## ⚡️ Training
+## 🚀 Training
 
 Train the Point Cloud Diffusion and then the Joint Diffusion.
 Thanks to the code repository from **[diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud)**.
