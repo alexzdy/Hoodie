@@ -2,7 +2,7 @@
   Hoodie: Hierarchical Point Cloud and Latent Code Diffusion for Dressed Avatar Generation
 </h1>
 
-## 📌 Paper
+## 🔥 Paper
 
 🎉 This paper has been accepted by the journal **Neurocomputing**. You can get this paper from **[Hoodie](https://www.sciencedirect.com/science/article/pii/S0925231225028048)**.
 
@@ -14,7 +14,7 @@
     conda install h5py
     pip3 install open3d
 
-## 📌 Data Preparation
+## 🚀 Data Preparation
 
 Please download paired human-garment point cloud dataset in the following link and place four training dataset files `Hoodie\human-garment\2048\*-2048` in human-garment.zip in our `./data` folder. 
 
@@ -24,7 +24,7 @@ Baiduyun Drive: **[[Baidu Drive]](https://pan.baidu.com/s/1y8jo0XDzSWMYXoF6fb47q
 
 Please note that our point cloud data is obtained based on **[Deep Fashion3D V2](https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D)**.
 
-## 📌 Training
+## ⚡️ Training
 
 Train the Point Cloud Diffusion and then the Joint Diffusion.
 Thanks to the code repository from **[diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud)**.
@@ -47,7 +47,7 @@ For modeling the joint distribution across two latent spaces:
     python cat.py
     python train_stage2.py --cat_path  --save_model
 
-## 📌 Sampling
+## 🎨 Sampling
 
 After training, we can implement the three main functions of Hoodie by the following operations. You can set generation category using `--categories` and set weight using `--stage1_human`, `--stage1_garment` and `--stage2_diffusion`.
 
@@ -69,7 +69,22 @@ You can use the following operation for conditional generation:
 
     python conditional-generation.py
 
-## 📌 Evaluation
+## ✨ Evaluation
 
 We use [PU-GAN](https://github.com/liruihui/PU-GAN) to unsample point cloud and then evaluate it using [torch-fidelity](https://github.com/toshas/torch-fidelity). 
 
+
+## 📝 Evaluation
+
+If you find W2S-AlignTree useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
+
+```
+@article{ding2025hoodie,
+  title={Hoodie: Hierarchical point cloud and latent code diffusion for joint and conditional generation},
+  author={Ding, Zhenyu and Zhang, Guiyu and Gao, Huan-ang and Chen, Xiaoxue and Fan, Zhaoxin and Ding, Ning and Zhao, Hao},
+  journal={Neurocomputing},
+  pages={132132},
+  year={2025},
+  publisher={Elsevier}
+}
+```
