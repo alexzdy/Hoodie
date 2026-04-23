@@ -74,7 +74,7 @@ You can use the following operation for conditional generation:
 We use [PU-GAN](https://github.com/liruihui/PU-GAN) to unsample point cloud and then evaluate it using [torch-fidelity](https://github.com/toshas/torch-fidelity). 
 
 
-## 📝 Evaluation
+## 📝 Citation
 
 If you find W2S-AlignTree useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
 
